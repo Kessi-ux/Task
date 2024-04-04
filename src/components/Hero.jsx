@@ -15,8 +15,8 @@ export const Hero = () => {
 
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
           <Carousel leftControl={<BiArrowToLeft />} rightControl={<BiArrowToRight />} slideInterval={5000}>
-            <img src="public/pharm2.jpg" alt="pic" className="w-[500px] h-[340px]" />
-            <img src="public/pharm3.jpg" alt="pic" className="w-[500px] h-[340px]" />
+            <img src="../../public/assets/pharm2.jpg" alt="pic" className="w-[500px] h-[340px]" />
+            <img src="../../public/assets/pharm3.jpg" alt="pic" className="w-[500px] h-[340px]" />
           </Carousel>
         </div>
       </div>
